@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #65eaf6 0%, #3597d3 100%);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    background: #5e33ad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container form label, .container form input, .container form select, .container form button {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.container form input, .container form select {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.container form button {
+    background: #6397df;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container form button:hover {
+    background: #65f665;
+}
+
+.output {
+    margin-top: 20px;
+    display: none;
+}
+
+.output p {
+    font-size: 18px;
+    font-weight: bold;
+}
